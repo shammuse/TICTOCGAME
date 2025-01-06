@@ -17,12 +17,10 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/tic-tac-toe.git
 Navigate to the project directory:
 bash
 Copy code
 cd tic-tac-toe
-Open the index.html file in your browser (for web version) or run the project using your preferred environment (e.g., Python, Java, etc.).
-Technologies Used
+Open the index.html file in your browser (for web version) 
 [HTML/CSS/JavaScript] (for web version)
-[Any libraries or frameworks, if applicable]
+
