@@ -1,0 +1,70 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #007acc;
+    margin-top: 20px;
+  }
+  
+  #board {
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .square {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #cccccc;
+    background-color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .square:hover {
+    cursor: pointer;
+    background-color: #007acc;
+    color: #ffffff;
+    transform: scale(1.05);
+  }
+  #endGame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #restartButton, #singlePlayerButton, #multiPlayerButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 45px;
+    width: 160px;
+    background-color: #007acc;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  #restartButton:hover, #singlePlayerButton:hover,  #multiPlayerButton:hover  {
+    background-color: #005fa3;
+    transform: translateY(-3px);
+  }
